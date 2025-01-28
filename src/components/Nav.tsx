@@ -10,6 +10,7 @@ const Nav = () => {
       <Link href={"/"} className={`text-xs px-2 py-1 rounded-full font-bold text-gray-700 ${link === '/' ? 'bg-teal-200': ''}`}>Home</Link>
       <Link href={"/first-atom"} className={`text-xs px-2 py-1 rounded-full font-bold text-gray-700 ${link === '/first-atom' ? 'bg-teal-200': ''}`}>First Atom</Link>
       <Link href={"/persisting-state-value"} className={`text-xs px-2 py-1 rounded-full font-bold text-gray-700 ${link === '/persisting-state-value' ? 'bg-teal-200': ''}`}>Persisting State Value</Link>
+      <Link href={"/todo"} className={`text-xs px-2 py-1 rounded-full font-bold text-gray-700 ${link === '/todo' ? 'bg-teal-200': ''}`}>Todo</Link>
     </div>
   )
 }
